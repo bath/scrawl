@@ -5,6 +5,8 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 # SCRAWL_APP_DIR builds the signed bundle somewhere else (staging for remote installs, see
 # install-app-remote.sh); SCRAWL_NO_LAUNCH=1 skips the ~/bin link and the restart.
 # SCRAWL_SIGN_ID signs with another identity; SCRAWL_PROFILE=release installs a release build.
+# SCRAWL_BUNDLE_ID and SCRAWL_APP_NAME install beside another Scrawl: macOS keys Screen Recording
+# and Accessibility grants on the bundle ID and its signer, so two copies sharing one ID fight.
 APP_DIR="${SCRAWL_APP_DIR:-${HOME}/Applications/Scrawl.app}"
 CONTENTS_DIR="${APP_DIR}/Contents"
 MACOS_DIR="${CONTENTS_DIR}/MacOS"
@@ -12,6 +14,8 @@ RESOURCES_DIR="${CONTENTS_DIR}/Resources"
 FRAMEWORKS_DIR="${CONTENTS_DIR}/Frameworks"
 SIGN_ID="${SCRAWL_SIGN_ID:-Developer ID Application: Christopher Langton (QC99C9JE59)}"
 PROFILE="${SCRAWL_PROFILE:-debug}"
+BUNDLE_ID="${SCRAWL_BUNDLE_ID:-dev.kitlangton.scrawl}"
+APP_NAME="${SCRAWL_APP_NAME:-Scrawl}"
 SPARKLE_PUBLIC_KEY="mIek27lttJe8cIBqVZFhh6reRKjpTx1h9ZY9OKWPtuM="
 
 cd "${REPO_DIR}"
@@ -49,13 +53,13 @@ cat > "${CONTENTS_DIR}/Info.plist" <<PLIST
   <key>CFBundleIconFile</key>
   <string>Scrawl</string>
   <key>CFBundleIdentifier</key>
-  <string>dev.kitlangton.scrawl</string>
+  <string>${BUNDLE_ID}</string>
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundleName</key>
-  <string>Scrawl</string>
+  <string>${APP_NAME}</string>
   <key>CFBundleDisplayName</key>
-  <string>Scrawl</string>
+  <string>${APP_NAME}</string>
   <key>CFBundlePackageType</key>
   <string>APPL</string>
   <key>CFBundleShortVersionString</key>
@@ -107,8 +111,8 @@ if [[ -d "${FRAMEWORKS_DIR}/Sparkle.framework/Versions/B" ]]; then
   codesign --force --sign "${IDENTITY}" "${SPARKLE_VER}/Updater.app"
   codesign --force --sign "${IDENTITY}" "${FRAMEWORKS_DIR}/Sparkle.framework"
 fi
-codesign --force --sign "${IDENTITY}" --identifier "dev.kitlangton.scrawl.helper" "${MACOS_DIR}/scrawl-helper"
-codesign --force --sign "${IDENTITY}" --identifier "dev.kitlangton.scrawl" "${APP_DIR}"
+codesign --force --sign "${IDENTITY}" --identifier "${BUNDLE_ID}.helper" "${MACOS_DIR}/scrawl-helper"
+codesign --force --sign "${IDENTITY}" --identifier "${BUNDLE_ID}" "${APP_DIR}"
 
 if [[ "${SCRAWL_NO_LAUNCH:-0}" == "1" ]]; then
   exit 0
@@ -116,12 +120,12 @@ fi
 
 ln -sf "${MACOS_DIR}/scrawl" "${HOME}/bin/scrawl"
 
-pkill -f "Scrawl.app/Contents/MacOS/scrawl" 2>/dev/null || true
+pkill -f "\.app/Contents/MacOS/scrawl" 2>/dev/null || true
 pkill -f "target/debug/scrawl" 2>/dev/null || true
 for _ in {1..20}; do
-  pgrep -f "Scrawl.app/Contents/MacOS/scrawl" >/dev/null || break
+  pgrep -f "\.app/Contents/MacOS/scrawl" >/dev/null || break
   sleep 0.05
 done
 open -a "${APP_DIR}" || (sleep 0.3 && open -n -a "${APP_DIR}")
 sleep 0.3
-pgrep -fl "Scrawl.app/Contents/MacOS/scrawl"
+pgrep -fl "${APP_DIR}/Contents/MacOS/scrawl"
