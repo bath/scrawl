@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "id": "hex",
+  "createdAtMs": 1792703615594,
+  "durationMs": 12853,
+  "target": {
+    "mode": "display",
+    "app": "Repro",
+    "bundleId": "example.repro",
+    "windowTitle": "Repro",
+    "displayId": 1,
+    "frame": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1280.0,
+      "height": 800.0,
+      "scale": 1.0
+    }
+  },
+  "transcript": {
+    "source": "hex:parakeet_unified_en",
+    "model": "parakeet_unified_en",
+    "text": "When I pick a different template and replace the dates, the feed lists every single milestone change. And this",
+    "segments": [
+      {
+        "t0": 500,
+        "t1": 5500,
+        "text": "When I pick a different template and replace the dates, the feed lists every single milestone change."
+      },
+      {
+        "t0": 8500,
+        "t1": 8650,
+        "text": "And this"
+      }
+    ],
+    "words": [
+      {
+        "t0": 500,
+        "t1": 735,
+        "text": "When"
+      },
+      {
+        "t0": 735,
+        "t1": 794,
+        "text": "I"
+      },
+      {
+        "t0": 794,
+        "t1": 1029,
+        "text": "pick"
+      },
+      {
+        "t0": 1029,
+        "t1": 1088,
+        "text": "a"
+      },
+      {
+        "t0": 1088,
+        "t1": 1617,
+        "text": "different"
+      },
+      {
+        "t0": 1617,
+        "t1": 2088,
+        "text": "template"
+      },
+      {
+        "t0": 2088,
+        "t1": 2264,
+        "text": "and"
+      },
+      {
+        "t0": 2264,
+        "t1": 2676,
+        "text": "replace"
+      },
+      {
+        "t0": 2676,
+        "t1": 2852,
+        "text": "the"
+      },
+      {
+        "t0": 2852,
+        "t1": 3205,
+        "text": "dates,"
+      },
+      {
+        "t0": 3205,
+        "t1": 3382,
+        "text": "the"
+      },
+      {
+        "t0": 3382,
+        "t1": 3617,
+        "text": "feed"
+      },
+      {
+        "t0": 3617,
+        "t1": 3911,
+        "text": "lists"
+      },
+      {
+        "t0": 3911,
+        "t1": 4205,
+        "text": "every"
+      },
+      {
+        "t0": 4205,
+        "t1": 4558,
+        "text": "single"
+      },
+      {
+        "t0": 4558,
+        "t1": 5088,
+        "text": "milestone"
+      },
+      {
+        "t0": 5088,
+        "t1": 5500,
+        "text": "change."
+      },
+      {
+        "t0": 8500,
+        "t1": 8564,
+        "text": "And"
+      },
+      {
+        "t0": 8564,
+        "t1": 8650,
+        "text": "this"
+      }
+    ],
+    "estimated": true
+  },
+  "strokes": [],
+  "marks": [],
+  "events": [],
+  "keyframes": [
+    {
+      "index": 1,
+      "t": 9900,
+      "reason": "initial",
+      "file": "frames/frame-01.png",
+      "event": "initial view",
+      "said": "When I pick a different template and replace the dates, the feed lists every single milestone change. And this"
+    }
+  ],
+  "contactSheet": "contact-sheet.png",
+  "video": "recording.mp4",
+  "audio": "audio.wav"
+}

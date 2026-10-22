@@ -1,0 +1,4 @@
+[1792703615603] finish timings: candidates 560ms · transcribe 177ms · select 0ms · decode 106ms · autocrop 2ms · sheet 8ms · write 0ms · total 678ms
+[scrawl 0:12 · Repro · hex.scrawl]
+Open contact-sheet.png and frames/ in that folder before changing anything: the marks and words only make sense on the images, which can show more than the text does.
+- #1 (0:09) “When I pick a different template and replace the dates, the feed lists every single milestone change. And this”

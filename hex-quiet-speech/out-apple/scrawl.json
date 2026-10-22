@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "id": "apple",
+  "createdAtMs": 1792703616306,
+  "durationMs": 12853,
+  "target": {
+    "mode": "display",
+    "app": "Repro",
+    "bundleId": "example.repro",
+    "windowTitle": "Repro",
+    "displayId": 1,
+    "frame": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1280.0,
+      "height": 800.0,
+      "scale": 1.0
+    }
+  },
+  "transcript": {
+    "source": "speech-analyzer",
+    "model": "SpeechTranscriber en_US",
+    "text": "When I pick a different template and replace the dates, the feed lists every single milestone change. It should say that the templates switch, and this which milestones change, rather than each one on its own line.",
+    "segments": [
+      {
+        "t0": 0,
+        "t1": 5880,
+        "text": "When I pick a different template and replace the dates, the feed lists every single milestone change."
+      },
+      {
+        "t0": 5880,
+        "t1": 12480,
+        "text": "It should say that the templates switch, and this which milestones change, rather than each one on its own line."
+      }
+    ],
+    "words": [
+      {
+        "t0": 0,
+        "t1": 600,
+        "text": "When"
+      },
+      {
+        "t0": 600,
+        "t1": 720,
+        "text": "I"
+      },
+      {
+        "t0": 720,
+        "t1": 900,
+        "text": "pick"
+      },
+      {
+        "t0": 900,
+        "t1": 1140,
+        "text": "a"
+      },
+      {
+        "t0": 1140,
+        "t1": 1260,
+        "text": "different"
+      },
+      {
+        "t0": 1260,
+        "t1": 1800,
+        "text": "template"
+      },
+      {
+        "t0": 1800,
+        "t1": 1980,
+        "text": "and"
+      },
+      {
+        "t0": 1980,
+        "t1": 2340,
+        "text": "replace"
+      },
+      {
+        "t0": 2340,
+        "t1": 2520,
+        "text": "the"
+      },
+      {
+        "t0": 2520,
+        "t1": 3060,
+        "text": "dates,"
+      },
+      {
+        "t0": 3060,
+        "t1": 3360,
+        "text": "the"
+      },
+      {
+        "t0": 3360,
+        "t1": 3600,
+        "text": "feed"
+      },
+      {
+        "t0": 3600,
+        "t1": 4200,
+        "text": "lists"
+      },
+      {
+        "t0": 4200,
+        "t1": 4380,
+        "text": "every"
+      },
+      {
+        "t0": 4380,
+        "t1": 4620,
+        "text": "single"
+      },
+      {
+        "t0": 4620,
+        "t1": 5340,
+        "text": "milestone"
+      },
+      {
+        "t0": 5340,
+        "t1": 5820,
+        "text": "change."
+      },
+      {
+        "t0": 5880,
+        "t1": 6420,
+        "text": "It"
+      },
+      {
+        "t0": 6420,
+        "t1": 6600,
+        "text": "should"
+      },
+      {
+        "t0": 6600,
+        "t1": 6780,
+        "text": "say"
+      },
+      {
+        "t0": 6780,
+        "t1": 6960,
+        "text": "that"
+      },
+      {
+        "t0": 6960,
+        "t1": 7200,
+        "text": "the"
+      },
+      {
+        "t0": 7200,
+        "t1": 7740,
+        "text": "templates"
+      },
+      {
+        "t0": 7740,
+        "t1": 8280,
+        "text": "switch,"
+      },
+      {
+        "t0": 8280,
+        "t1": 8580,
+        "text": "and"
+      },
+      {
+        "t0": 8580,
+        "t1": 8760,
+        "text": "this"
+      },
+      {
+        "t0": 8760,
+        "t1": 9060,
+        "text": "which"
+      },
+      {
+        "t0": 9060,
+        "t1": 9660,
+        "text": "milestones"
+      },
+      {
+        "t0": 9660,
+        "t1": 10260,
+        "text": "change,"
+      },
+      {
+        "t0": 10260,
+        "t1": 10800,
+        "text": "rather"
+      },
+      {
+        "t0": 10800,
+        "t1": 11040,
+        "text": "than"
+      },
+      {
+        "t0": 11040,
+        "t1": 11160,
+        "text": "each"
+      },
+      {
+        "t0": 11160,
+        "t1": 11400,
+        "text": "one"
+      },
+      {
+        "t0": 11400,
+        "t1": 11640,
+        "text": "on"
+      },
+      {
+        "t0": 11640,
+        "t1": 11760,
+        "text": "its"
+      },
+      {
+        "t0": 11760,
+        "t1": 11880,
+        "text": "own"
+      },
+      {
+        "t0": 11880,
+        "t1": 12360,
+        "text": "line."
+      }
+    ]
+  },
+  "strokes": [],
+  "marks": [],
+  "events": [],
+  "keyframes": [
+    {
+      "index": 1,
+      "t": 8800,
+      "reason": "speech",
+      "file": "frames/frame-01.png",
+      "event": "said “this”",
+      "said": "When I pick a different template and replace the dates, the feed lists every single milestone change. It should say that the templates switch, and this which milestones change, rather than each one on its own line."
+    }
+  ],
+  "contactSheet": "contact-sheet.png",
+  "video": "recording.mp4",
+  "audio": "audio.wav"
+}

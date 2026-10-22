@@ -1,0 +1,16 @@
+{
+ "source": "speech-analyzer",
+ "text": "When I pick a different template and replace the dates, the feed lists every single milestone change. It should say that the templates switch, and this which milestones change, rather than each one on its own line.",
+ "segments": [
+  {
+   "t0": 0,
+   "t1": 5880,
+   "text": "When I pick a different template and replace the dates, the feed lists every single milestone change."
+  },
+  {
+   "t0": 5880,
+   "t1": 12480,
+   "text": "It should say that the templates switch, and this which milestones change, rather than each one on its own line."
+  }
+ ]
+}
