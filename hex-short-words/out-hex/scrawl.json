@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "id": "bundle",
+  "createdAtMs": 1792704195648,
+  "durationMs": 15267,
+  "target": {
+    "mode": "display",
+    "app": "Repro",
+    "bundleId": "example.repro",
+    "windowTitle": "Repro",
+    "displayId": 1,
+    "frame": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1280.0,
+      "height": 800.0,
+      "scale": 1.0
+    }
+  },
+  "transcript": {
+    "source": "hex:parakeet_unified_en",
+    "model": "parakeet_unified_en",
+    "text": "Open the Settings page. Yes. No. Okay. Delete it. Then click Save.",
+    "segments": [
+      {
+        "t0": 500,
+        "t1": 1500,
+        "text": "Open the Settings page."
+      },
+      {
+        "t0": 3350,
+        "t1": 3500,
+        "text": "Yes."
+      },
+      {
+        "t0": 5250,
+        "t1": 5450,
+        "text": "No."
+      },
+      {
+        "t0": 7100,
+        "t1": 7350,
+        "text": "Okay."
+      },
+      {
+        "t0": 9050,
+        "t1": 9350,
+        "text": "Delete it."
+      },
+      {
+        "t0": 12850,
+        "t1": 13550,
+        "text": "Then click Save."
+      }
+    ],
+    "words": [
+      {
+        "t0": 500,
+        "t1": 700,
+        "text": "Open"
+      },
+      {
+        "t0": 700,
+        "t1": 850,
+        "text": "the"
+      },
+      {
+        "t0": 850,
+        "t1": 1250,
+        "text": "Settings"
+      },
+      {
+        "t0": 1250,
+        "t1": 1500,
+        "text": "page."
+      },
+      {
+        "t0": 3350,
+        "t1": 3500,
+        "text": "Yes."
+      },
+      {
+        "t0": 5250,
+        "t1": 5450,
+        "text": "No."
+      },
+      {
+        "t0": 7100,
+        "t1": 7350,
+        "text": "Okay."
+      },
+      {
+        "t0": 9050,
+        "t1": 9250,
+        "text": "Delete"
+      },
+      {
+        "t0": 9250,
+        "t1": 9350,
+        "text": "it."
+      },
+      {
+        "t0": 12850,
+        "t1": 13050,
+        "text": "Then"
+      },
+      {
+        "t0": 13050,
+        "t1": 13300,
+        "text": "click"
+      },
+      {
+        "t0": 13300,
+        "t1": 13550,
+        "text": "Save."
+      }
+    ],
+    "estimated": true
+  },
+  "strokes": [],
+  "marks": [],
+  "events": [],
+  "keyframes": [
+    {
+      "index": 1,
+      "t": 11400,
+      "reason": "initial",
+      "file": "frames/frame-01.png",
+      "event": "initial view",
+      "said": "Open the Settings page. Yes. No. Okay. Delete it. Then click Save."
+    }
+  ],
+  "contactSheet": "contact-sheet.png",
+  "video": "recording.mp4",
+  "audio": "audio.wav"
+}

@@ -1,0 +1,36 @@
+{
+ "source": "hex:parakeet_unified_en",
+ "text": "Open the Settings page. Yes. No. Okay. Delete it. Then click Save.",
+ "segments": [
+  {
+   "t0": 500,
+   "t1": 1500,
+   "text": "Open the Settings page."
+  },
+  {
+   "t0": 3350,
+   "t1": 3500,
+   "text": "Yes."
+  },
+  {
+   "t0": 5250,
+   "t1": 5450,
+   "text": "No."
+  },
+  {
+   "t0": 7100,
+   "t1": 7350,
+   "text": "Okay."
+  },
+  {
+   "t0": 9050,
+   "t1": 9350,
+   "text": "Delete it."
+  },
+  {
+   "t0": 12850,
+   "t1": 13550,
+   "text": "Then click Save."
+  }
+ ]
+}

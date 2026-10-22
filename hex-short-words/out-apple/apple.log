@@ -1,0 +1,4 @@
+[1792704196624] finish timings: candidates 804ms · transcribe 205ms · select 1ms · decode 111ms · autocrop 1ms · sheet 8ms · write 0ms · total 928ms
+[scrawl 0:15 · Repro · out-apple/bundle.scrawl]
+Open contact-sheet.png and frames/ in that folder before changing anything: the marks and words only make sense on the images, which can show more than the text does.
+- #1 (0:11) “Open the settings page. Yes. No. Okay. Delete it. Wait. Then click save.”

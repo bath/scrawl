@@ -1,0 +1,3 @@
+[scrawl 0:15 · Repro · out-hex/bundle.scrawl]
+Open contact-sheet.png and frames/ in that folder before changing anything: the marks and words only make sense on the images, which can show more than the text does.
+- #1 (0:11) “Open the Settings page. Yes. No. Okay. Delete it. Then click Save.”

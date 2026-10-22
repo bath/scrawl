@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "id": "bundle",
+  "createdAtMs": 1792704196615,
+  "durationMs": 15267,
+  "target": {
+    "mode": "display",
+    "app": "Repro",
+    "bundleId": "example.repro",
+    "windowTitle": "Repro",
+    "displayId": 1,
+    "frame": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1280.0,
+      "height": 800.0,
+      "scale": 1.0
+    }
+  },
+  "transcript": {
+    "source": "speech-analyzer",
+    "model": "SpeechTranscriber en_US",
+    "text": "Open the settings page. Yes. No. Okay. Delete it. Wait. Then click save.",
+    "segments": [
+      {
+        "t0": 0,
+        "t1": 2100,
+        "text": "Open the settings page."
+      },
+      {
+        "t0": 2160,
+        "t1": 3960,
+        "text": "Yes."
+      },
+      {
+        "t0": 3960,
+        "t1": 5820,
+        "text": "No."
+      },
+      {
+        "t0": 6000,
+        "t1": 7800,
+        "text": "Okay."
+      },
+      {
+        "t0": 7800,
+        "t1": 9720,
+        "text": "Delete it."
+      },
+      {
+        "t0": 9720,
+        "t1": 11520,
+        "text": "Wait."
+      },
+      {
+        "t0": 11580,
+        "t1": 13860,
+        "text": "Then click save."
+      }
+    ],
+    "words": [
+      {
+        "t0": 0,
+        "t1": 600,
+        "text": "Open"
+      },
+      {
+        "t0": 600,
+        "t1": 900,
+        "text": "the"
+      },
+      {
+        "t0": 900,
+        "t1": 1020,
+        "text": "settings"
+      },
+      {
+        "t0": 1020,
+        "t1": 1980,
+        "text": "page."
+      },
+      {
+        "t0": 2160,
+        "t1": 3840,
+        "text": "Yes."
+      },
+      {
+        "t0": 4140,
+        "t1": 5700,
+        "text": "No."
+      },
+      {
+        "t0": 6000,
+        "t1": 7680,
+        "text": "Okay."
+      },
+      {
+        "t0": 7800,
+        "t1": 9000,
+        "text": "Delete"
+      },
+      {
+        "t0": 9000,
+        "t1": 9600,
+        "text": "it."
+      },
+      {
+        "t0": 9720,
+        "t1": 11400,
+        "text": "Wait."
+      },
+      {
+        "t0": 11580,
+        "t1": 12840,
+        "text": "Then"
+      },
+      {
+        "t0": 12840,
+        "t1": 13200,
+        "text": "click"
+      },
+      {
+        "t0": 13200,
+        "t1": 13740,
+        "text": "save."
+      }
+    ]
+  },
+  "strokes": [],
+  "marks": [],
+  "events": [],
+  "keyframes": [
+    {
+      "index": 1,
+      "t": 11400,
+      "reason": "initial",
+      "file": "frames/frame-01.png",
+      "event": "initial view",
+      "said": "Open the settings page. Yes. No. Okay. Delete it. Wait. Then click save."
+    }
+  ],
+  "contactSheet": "contact-sheet.png",
+  "video": "recording.mp4",
+  "audio": "audio.wav"
+}

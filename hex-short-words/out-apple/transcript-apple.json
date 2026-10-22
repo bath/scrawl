@@ -1,0 +1,41 @@
+{
+ "source": "speech-analyzer",
+ "text": "Open the settings page. Yes. No. Okay. Delete it. Wait. Then click save.",
+ "segments": [
+  {
+   "t0": 0,
+   "t1": 2100,
+   "text": "Open the settings page."
+  },
+  {
+   "t0": 2160,
+   "t1": 3960,
+   "text": "Yes."
+  },
+  {
+   "t0": 3960,
+   "t1": 5820,
+   "text": "No."
+  },
+  {
+   "t0": 6000,
+   "t1": 7800,
+   "text": "Okay."
+  },
+  {
+   "t0": 7800,
+   "t1": 9720,
+   "text": "Delete it."
+  },
+  {
+   "t0": 9720,
+   "t1": 11520,
+   "text": "Wait."
+  },
+  {
+   "t0": 11580,
+   "t1": 13860,
+   "text": "Then click save."
+  }
+ ]
+}
